@@ -1,0 +1,30 @@
+This directory contains a first examples for programming tasks for
+FYS-2006 fall 2017
+
+The file ode_ExB contains a function implementing the equations of
+motion (three coupled second order ordinary differential equations) in
+a format (6 coupled first-order differential equations) suitable for
+the ode-integrating functions of matlab, the purpose of the file is
+to illustrate how a well-written matlab-function should look in terms
+of documentation and commenting. Similar programming styles should be
+used regardless of programming language chosen for the programming
+tasks. Changes should be made to fit the help/documentation formats at
+hand, but all the pieces should be there in some order: calling
+syntax, description of input and output parameters, preferably an
+illustrating example of usage and description of methods and algorithms.
+
+The script ExB_drift_example.m uses the format of commenting
+that in matlab parlance is known as "cell-mode" which makes it
+possible to evaluate the script section-by-section and also
+automatically generate html or latex-documents of the script. The
+sections/cells are started with a '%%' followed by a section header.
+
+There are several cheat-sheets listing many useful matlab-functions
+and commands available on the internet. 
+
+As to style of programming - there are likewise several sources for
+style-guides available on the internet, find some use them - but do
+not become prisoner of the rules laid out.
+
+More later, BG 20170824
+
